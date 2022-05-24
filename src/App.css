@@ -1,8 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 .App {
   width: 100vw;
   height: 100vh;
@@ -16,6 +27,8 @@
   width: 950px;
   height: 500px;
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   background-color: white;
   border-radius: 30px;
 }
@@ -24,4 +37,29 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  gap: 30px;
+  padding-left: 30px;
+}
+
+.Conteiner_text-title h1 {
+  font-size: 30px;
+}
+
+details {
+  width: 100%;
+  background: #ffffff;
+  width: 400px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7eeee;
+}
+
+.summary {
+  border-top: 5px solid #919292;
+  cursor: default;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.IlustradorDesktop {
+  z-index: -1;
 }

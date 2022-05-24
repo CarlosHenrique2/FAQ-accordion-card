@@ -1,6 +1,9 @@
 import React from "react";
 
-export interface ITypographyProps {}
+export interface ITypographyProps {
+  label: string;
+  content: string;
+}
 
 const defaultProps: Partial<ITypographyProps> = {};
 
