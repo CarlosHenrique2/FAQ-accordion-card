@@ -21,6 +21,7 @@
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  z-index: 10;
 }
 
 .Conteiner {
@@ -31,6 +32,12 @@
   justify-content: flex-start;
   background-color: white;
   border-radius: 30px;
+  z-index: 9;
+}
+
+.Conteiner_controler {
+  position: relative;
+  z-index: 7;
 }
 
 .Conteiner_text {
@@ -39,6 +46,7 @@
   flex-direction: column;
   gap: 30px;
   padding-left: 30px;
+  z-index: 8;
 }
 
 .Conteiner_text-title h1 {
@@ -60,6 +68,22 @@ details {
   line-height: 1.5;
 }
 
-.IlustradorDesktop {
-  z-index: -1;
+.Conteiner_controler_imgDesk {
+  position: relative;
+  left: -65px;
+  z-index: 5;
+}
+
+.Conteiner_controler_imgBoxDesk {
+  position: absolute;
+  left: -90px;
+  top: 157px;
+  z-index: 6;
+}
+
+.Conteiner_controler_imgBgDesk {
+  position: absolute;
+  left: -570px;
+  top: -346px;
+  z-index: 4;
 }

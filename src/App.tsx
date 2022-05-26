@@ -18,10 +18,18 @@ function App() {
   return (
     <div className="App">
       <div className="Conteiner">
-        <div>
-          <img src={IlustradorDesktop} alt="" />
-          <img src={Box} alt="" />
-          {/*  <img className="BgButtonDesktop" src={BgButtonDesktop} alt="" /> */}
+        <div className="Conteiner_controler">
+          <img
+            className="Conteiner_controler_imgDesk"
+            src={IlustradorDesktop}
+            alt=""
+          />
+          <img className="Conteiner_controler_imgBoxDesk" src={Box} alt="" />
+          <img
+            className="Conteiner_controler_imgBgDesk"
+            src={BgButtonDesktop}
+            alt=""
+          />
         </div>
         <div className="Conteiner_text">
           <div className="Conteiner_text-title">
