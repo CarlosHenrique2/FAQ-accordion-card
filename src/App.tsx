@@ -9,7 +9,6 @@ import Box from "./assets/icon/illustration-box-desktop.svg";
 import Arrow from "./assets/icon/icon-arrow-down.svg";
 
 import BgButtonMobile from "./assets/icon/bg-pattern-mobile.svg";
-import BgButtonDesktop from "./assets/icon/bg-pattern-desktop.svg";
 
 import Container from "./components/container";
 import Typography from "./components/Typography";
@@ -18,18 +17,8 @@ function App() {
   return (
     <div className="App">
       <div className="Conteiner">
-        <div className="Conteiner_controler">
-          <img
-            className="Conteiner_controler_imgDesk"
-            src={IlustradorDesktop}
-            alt=""
-          />
+        <div className="Conteiner_controler  ">
           <img className="Conteiner_controler_imgBoxDesk" src={Box} alt="" />
-          <img
-            className="Conteiner_controler_imgBgDesk"
-            src={BgButtonDesktop}
-            alt=""
-          />
         </div>
         <div className="Conteiner_text">
           <div className="Conteiner_text-title">

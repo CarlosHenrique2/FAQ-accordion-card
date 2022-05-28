@@ -1,8 +1,10 @@
 import React from "react";
 
-export interface ContainerProps {}
+export interface ContainerProps {
+  children: typeof React.Children;
+}
 
-const Container: React.FC<ContainerProps> = ({}) => {
+const Container: React.FC<ContainerProps> = ({ children }) => {
   return <></>;
 };
 

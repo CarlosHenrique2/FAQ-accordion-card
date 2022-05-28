@@ -33,11 +33,18 @@
   background-color: white;
   border-radius: 30px;
   z-index: 9;
+  -webkit-box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.75);
 }
 
 .Conteiner_controler {
   position: relative;
-  z-index: 7;
+  width: 400px;
+  height: 100%;
+  background: url(./assets/icon/illustration-woman-online-desktop.svg);
+  background-repeat: no-repeat;
+  background-position-x: -80px;
+  background-position-y: 45px;
 }
 
 .Conteiner_text {
@@ -68,22 +75,19 @@ details {
   line-height: 1.5;
 }
 
-.Conteiner_controler_imgDesk {
-  position: relative;
-  left: -65px;
-  z-index: 5;
-}
-
 .Conteiner_controler_imgBoxDesk {
   position: absolute;
   left: -90px;
-  top: 157px;
+  top: 182px;
   z-index: 6;
 }
 
 .Conteiner_controler_imgBgDesk {
   position: absolute;
-  left: -570px;
-  top: -346px;
-  z-index: 4;
+  z-index: -1;
+  width: 1000px;
+  height: 100%;
+  background-position-x: -570px;
+  background-position-y: -346px;
+  background: url(./assets/icon/bg-pattern-desktop.svg);
 }
