@@ -4,12 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-}
-
-h1 {
-  font-size: 30px;
 }
 
 .App {
@@ -22,8 +16,8 @@ h1 {
 }
 
 .Conteiner {
-  width: 1000px;
-  height: 500px;
+  width: 920px;
+  height: 509px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -33,11 +27,8 @@ h1 {
   box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.75);
 }
 
-.Conteiner_img {
-  position: relative;
-  padding-right: 15rem;
-  height: 100%;
-  width: 500px;
+.Conteiner_text {
+  width: 50%;
 }
 
 .Conteiner_controler_imgBoxDesk {
@@ -58,10 +49,10 @@ h1 {
 
 .Conteiner_DeskBgimg {
   position: absolute;
-  width: 80%;
+  width: 90%;
   height: 100%;
   background: url(./assets/icon/bg-pattern-desktop.svg);
   background-repeat: no-repeat;
   background-position-x: -570px;
-  background-position-y: -346px;
+  background-position-y: -330px;
 }

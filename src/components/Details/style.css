@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Conteiner_details_title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  user-select: none;
+  color: #4b4c5f;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 11px;
+}
+
+.Conteiner_details_title:hover {
+  color: #f47b56;
+}
+
+.Conteiner_details_title::after {
+  font-weight: bold;
+}
+
+.Conteiner_details_content {
+  font-size: 12px;
+}
