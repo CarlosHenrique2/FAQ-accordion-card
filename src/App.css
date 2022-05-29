@@ -8,10 +8,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+h1 {
+  font-size: 30px;
 }
 
 .App {
@@ -21,73 +19,49 @@
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  z-index: 10;
 }
 
 .Conteiner {
-  width: 950px;
+  width: 1000px;
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   background-color: white;
   border-radius: 30px;
-  z-index: 9;
   -webkit-box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.75);
 }
 
-.Conteiner_controler {
+.Conteiner_img {
   position: relative;
+  padding-right: 15rem;
+  height: 100%;
+  width: 500px;
+}
+
+.Conteiner_controler_imgBoxDesk {
+  position: relative;
+  left: -94px;
+  top: 172px;
+}
+
+.Conteiner_Deskwomanimg {
+  position: absolute;
   width: 400px;
   height: 100%;
   background: url(./assets/icon/illustration-woman-online-desktop.svg);
   background-repeat: no-repeat;
   background-position-x: -80px;
-  background-position-y: 45px;
+  background-position-y: 33px;
 }
 
-.Conteiner_text {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 30px;
-  padding-left: 30px;
-  z-index: 8;
-}
-
-.Conteiner_text-title h1 {
-  font-size: 30px;
-}
-
-details {
-  width: 100%;
-  background: #ffffff;
-  width: 400px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e7eeee;
-}
-
-.summary {
-  border-top: 5px solid #919292;
-  cursor: default;
-  font-weight: 300;
-  line-height: 1.5;
-}
-
-.Conteiner_controler_imgBoxDesk {
+.Conteiner_DeskBgimg {
   position: absolute;
-  left: -90px;
-  top: 182px;
-  z-index: 6;
-}
-
-.Conteiner_controler_imgBgDesk {
-  position: absolute;
-  z-index: -1;
-  width: 1000px;
+  width: 80%;
   height: 100%;
+  background: url(./assets/icon/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
   background-position-x: -570px;
   background-position-y: -346px;
-  background: url(./assets/icon/bg-pattern-desktop.svg);
 }
