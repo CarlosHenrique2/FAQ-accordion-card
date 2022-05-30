@@ -16,7 +16,7 @@ export const Details: React.FC<IDetailsProps> = ({ title, content }) => {
   return (
     <div className="Conteiner_details Conteiner_detailsMobile">
       <div
-        className="Conteiner_details_title"
+        className={`Conteiner_details_title ${open && "title_bold"}`}
         onClick={() => {
           if (open === false) {
             setOpen(true);
