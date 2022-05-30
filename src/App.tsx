@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./app.css";
 import "./global.css";
 
 import IlustradorMobile from "./assets/icon/illustration-woman-online-mobile.svg";
