@@ -25,7 +25,7 @@
   .Conteiner_img {
     position: relative;
     padding-right: 17rem;
-    height: 35%;
+    height: 25%;
     width: 50%;
   }
 
@@ -33,6 +33,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 300px;
+    height: 60%;
   }
 
   .Conteiner_details {
@@ -55,15 +57,15 @@
   .Conteiner_Mobilewomanimg {
     position: absolute;
     width: 300px;
-    height: 100%;
-    top: -115px;
+    height: 170px;
+    top: -99px;
     left: -14px;
   }
 
   .Conteiner_bgMobile {
     position: absolute;
     width: 300px;
-    height: 60%;
+    height: 85%;
     background: url(./assets/icon/bg-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-position-x: 15px;
