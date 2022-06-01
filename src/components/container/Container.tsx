@@ -1,13 +1,14 @@
 import React from "react";
 
 import "./style.css";
+import "../../global.css";
 
 export interface ContainerProps {
-  children: typeof React.Children;
+  children: React.ReactNode;
 }
 
 const Container: React.FC<ContainerProps> = ({ children }) => {
-  return <>{children}</>;
+  return <div className="Container">{children}</div>;
 };
 
 export default Container;

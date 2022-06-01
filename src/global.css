@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-.App {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-}
-
 .Conteiner {
   width: 920px;
   height: 509px;
@@ -89,7 +80,8 @@
   }
 
   .Conteiner_details {
-    padding-top: 22px;
+    border-bottom: 1px solid #e8e8ea;
+    padding-top: 15px;
     width: 279px;
   }
 
@@ -141,6 +133,15 @@
 }
 
 @media screen and (min-width: 600px) {
+  .App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  }
+
   .Conteiner_Mobilewomanimg {
     display: none;
   }

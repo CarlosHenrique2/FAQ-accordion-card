@@ -14,7 +14,7 @@ export interface IDetailsProps {
 export const Details: React.FC<IDetailsProps> = ({ title, content }) => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="Conteiner_details Conteiner_detailsMobile">
+    <div className="Conteiner_details">
       <div
         className={`Conteiner_details_title ${open && "title_bold"}`}
         onClick={() => {
